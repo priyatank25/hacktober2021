@@ -54,9 +54,11 @@ while True:
         if status==1:
             times.append(datetime.now())
         break
-n = len(times)
 
-for i in range(0,n,2):
+print(status_list)
+print(times)
+
+for i in range(0,len(times),2):
     df=df.append({"Start":times[i],"End":times[i+1]},ignore_index=True)
 
 df.to_csv("Times.csv")
