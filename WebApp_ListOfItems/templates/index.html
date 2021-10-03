@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+
+<table class="table table-striped style">
+    <tr>
+        <th>List of Items</th>
+    </tr>
+        {% for i in data %} 
+        <!-- Traversing the list of items -->
+    <tr>
+        <td>{{ i }}</td>
+        <!-- Displaying the item -->
+        {% endfor %}
+    </tr>
+    
+</table>
+
+{% endblock %}
