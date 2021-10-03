@@ -20,4 +20,9 @@ Get ready for some crazy days of bugs,typos,erros and fun.... </h4> </h1></p>
 </ul>
 <hr>
 
+### :star:contributors
+<a href="https://github.com/Uniq-dev/hacktober2021/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Uniq-dev/hacktober2021" />
+</a>
+
 
